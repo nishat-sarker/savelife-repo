@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Nunito', sans-serif; */
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #707070;
+}
+h1,h2,h3,h4{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    color: #121212;
+}
+/* header section css code start here  */
+header{
+    background-image: url(../images/01.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+header #banner {
+    padding-top: 15%;
+    color: #ffffff;
+    width: 70%;
+    margin: auto;
+}
+#banner h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+#banner .header-details{
+    font-size: 18px;
+    line-height: 28px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+.banner-btn a{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff5202ea;
+    padding: 15px 30px;
+    border-radius: 11px;
+    border: 1px solid #ff5202ea;
+}
+.banner-btn a:hover{
+    background-color: #e75d1cea;
+}
+/* header section css code end here  */
+
+/* donate section css code start here  */
+#donate-section{
+    margin: 130px 0px;
+    text-align: center;
+}
+#donate-section h2{
+    font-size: 45px;
+    line-height: 54px;
+}
+#donate-section .donation-details{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 0px 50px 0px;
+    width: 60%;
+    margin: auto;
+    color: #707070;
+}
+#donate-box{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+.donate-box-1, .donate-box-2, .donate-box-3, .donate-box-4, .donate-box-5{
+    height: 123px;
+    width: 135px;
+    color: #707070;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#donate-box h3{
+    padding: 44px 23px;
+    font-size: 30px;
+}
+.donate-box-1{
+    color: #ff5202ea;
+    background-color: #ff520218;
+    border: 1px solid #ff5202ea;
+}
+.donate-ammount{
+    margin: 50px 0px 30px 0px;
+}
+.donate-ammount input{
+    width: 60%;
+    outline: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #707070;
+}
+.btn-color{
+    color: #000000 !important;
+}
+/* donate section css code end here  */
+
+/* donate-plan section css code start here  */
+#donate-plan-section{
+    padding: 80px 0px;
+
+}
+#donate-plan-section h2{
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+#donate-plan-section .plan-details{
+    padding: 20px 0px 50px;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+#plan-card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.plan-card-1, .plan-card-2, .plan-card-3{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    padding: 63px 23px;
+    margin: 10px;
+}
+.plan-card-1{
+    background-color: rgb(238, 247, 238);
+}
+.plan-card-2{
+    background-color: #ffefef;
+}
+.plan-card-3{
+    background-color: #fff4d6;
+}
+#plan-card h3{
+    padding: 31px 0px 16px 0px;
+    font-size: 24px;
+    line-height: 36px;
+}
+#plan-card p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* donate-plan section css code end here  */
+.bar-section{
+    padding: 60px 0px;
+    background-color: #ff5202fd;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-section-1 h2{
+    font-size: 50px;
+    color: #ffffff;
+}
+.bar-section-1 p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.bar-btn a{
+    padding: 20px 45px;
+    color: #121212;
+    background-color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.bar-btn{
+    margin-top: 40px;
+}
+
+/* contribute section css code start here  */
+.contribute{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0px;
+    width: 80%;
+    margin: auto;
+}
+.contribute-details h2{
+    font-size: 45px;
+    line-height: 54px;
+    padding-top: 30px;
+    width: 70%;
+}
+.contribute-details p{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 30px 20px 0px;
+    text-align: justify;
+}
+.contribution-btn{
+    margin-top: 30px;
+}
+/* contribute section css code end here  */
+
+/* Event section css code start here  */
+.event{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.event-img img{
+    width: 90%;
+    margin-top: 12px;
+}
+.event-details .event-header{
+    font-size: 40px;
+}
+.event-details-1, .event-details-2, .event-details-3{
+    display: flex;
+    justify-content: space-between;
+    height: 111px;
+    background-color: #ff520218;
+    margin: 10px;
+    padding: 10px;
+}
+.part-2{
+    padding-left: 10px;
+    border-left: 2px dotted #ff5202ea;
+}
+.part-2 small{
+    margin-right: 160px;
+}
+.part-2 a{
+    padding: 10px 20px;
+    color: #121212;
+    background-color: #ffffff;
+}
+.part-2-link small{
+    margin-right: 130px;
+}
+/* Event section css code end here  */
+
+/* Newsletter section css code start here  */
+#newsletter-section{
+    text-align: center;
+    margin: 120px 0px;
+}
+#newsletter-section h2{
+    font-size: 45px;
+    line-height: 54px;
+}
+#newsletter-section p{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 0px 50px 0px;
+}
+.newsletter-area{
+    width: 809px;
+    height: 200px;
+    background-color: #ff520218;
+    margin: auto;
+}
+.newsletter-area .inbox{
+    padding: 76px 188px;
+}
+.inbox input{
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 48px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+.inbox button{
+    height: 46px;
+    padding: 14px 20px;
+    border: none;
+    background-color: #ff5202ea;
+    font-size: 17.2px;
+    cursor: pointer;
+    color: #ffffff;
+}
+/* Newsletter section css code end here  */
+
+/* footer section css code start here  */
+footer{
+    height: 117px;
+    background-color: #0B0D17;
+    color: #ffffff;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ff5202ea;
+    padding-top: 43px;
+}
+/* footer section css code end here  */
